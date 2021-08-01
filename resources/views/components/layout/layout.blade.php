@@ -18,6 +18,7 @@
         </style>
     </head>
     <body class="antialiased">
+        <x-layout.navbar />
         <div class="container mx-auto w-2/3">
             @yield('content')
         </div>

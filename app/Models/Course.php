@@ -21,8 +21,8 @@ class Course extends Model
         return $this->belongsToMany(
             Student::class,
             'course_participants',
+            'course_id',
             'student_id',
-            'course_id'
         );
     }
 }
